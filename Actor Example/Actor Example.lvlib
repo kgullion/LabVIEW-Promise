@@ -11,4 +11,5 @@
 	<Item Name="Actor Example.lvclass" Type="LVClass" URL="../Actor Example/Actor Example.lvclass"/>
 	<Item Name="Long Running Process.lvclass" Type="LVClass" URL="../Long Running Process/Long Running Process.lvclass"/>
 	<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+	<Item Name="Actor Example Callback.vi" Type="VI" URL="../Actor Example Callback.vi"/>
 </Library>
