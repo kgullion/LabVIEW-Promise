@@ -5,11 +5,16 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Automatic Tests" Type="Folder">
-		<Item Name="Basic Then.vi" Type="VI" URL="../Unit Tests/Basic Then.vi"/>
 		<Item Name="Blocking Read After Fulfill.vi" Type="VI" URL="../Unit Tests/Blocking Read After Fulfill.vi"/>
 		<Item Name="Blocking Read Before Fulfill.vi" Type="VI" URL="../Unit Tests/Blocking Read Before Fulfill.vi"/>
 		<Item Name="Chaining Promises With Unexpected Deletion.vi" Type="VI" URL="../Unit Tests/Chaining Promises With Unexpected Deletion.vi"/>
 		<Item Name="Chaining Promises.vi" Type="VI" URL="../Unit Tests/Chaining Promises.vi"/>
+		<Item Name="Cycle Fulfill Error.vi" Type="VI" URL="../Unit Tests/Cycle Fulfill Error.vi"/>
+		<Item Name="Default Read Before Fulfill.vi" Type="VI" URL="../Unit Tests/Default Read Before Fulfill.vi"/>
+		<Item Name="Double Fulfill Error.vi" Type="VI" URL="../Unit Tests/Double Fulfill Error.vi"/>
+		<Item Name="Postset Then.vi" Type="VI" URL="../Unit Tests/Postset Then.vi"/>
+		<Item Name="Preset Then.vi" Type="VI" URL="../Unit Tests/Preset Then.vi"/>
+		<Item Name="Self Fulfill Error.vi" Type="VI" URL="../Unit Tests/Self Fulfill Error.vi"/>
 	</Item>
 	<Item Name="Helper Function" Type="Folder">
 		<Item Name="Basic Then Callback.vi" Type="VI" URL="../Unit Tests/Basic Then Callback.vi"/>

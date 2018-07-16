@@ -12,10 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Promise Future.lvlib" Type="Library" URL="../Promise Future/Promise Future.lvlib"/>
-		<Item Name="Callback Template.vi" Type="VI" URL="../Promise Future/Callback Template.vi"/>
+		<Item Name="Callback Template.vi" Type="VI" URL="../Callback Template.vi"/>
+		<Item Name="Unit Tests.lvlib" Type="Library" URL="../Unit Tests.lvlib"/>
 		<Item Name="Basic Example.lvlib" Type="Library" URL="../Basic Example/Basic Example.lvlib"/>
 		<Item Name="Actor Example.lvlib" Type="Library" URL="../Actor Example/Actor Example.lvlib"/>
-		<Item Name="Unit Tests.lvlib" Type="Library" URL="../Unit Tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
@@ -93,6 +93,7 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Application Menu.rtm" Type="Document" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/Caraya/menu/Application Menu.rtm"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi"/>
@@ -126,6 +127,20 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Obtain Promise.vi" Type="VI" URL="../Promise/Promise/Obtain Promise.vi"/>
+			<Item Name="Read Value.vim" Type="VI" URL="../Promise/Future/Read Value.vim"/>
+			<Item Name="Promise.lvclass" Type="LVClass" URL="../Promise/Promise/Promise.lvclass"/>
+			<Item Name="Read Value (private).vi" Type="VI" URL="../Promise/Future/Read Value (private).vi"/>
+			<Item Name="Future.lvclass" Type="LVClass" URL="../Promise/Future/Future.lvclass"/>
+			<Item Name="Fulfill Promise.vim" Type="VI" URL="../Promise/Promise/Fulfill Promise.vim"/>
+			<Item Name="Fulfull (Value).vi" Type="VI" URL="../Promise/Future/Fulfull (Value).vi"/>
+			<Item Name="Fulfull (Future).vi" Type="VI" URL="../Promise/Future/Fulfull (Future).vi"/>
+			<Item Name="Then.vim" Type="VI" URL="../Promise/Future/Then.vim"/>
+			<Item Name="Future.ctl" Type="VI" URL="../Promise/Future/Future.lvclass/Future.ctl"/>
+			<Item Name="Then.vi" Type="VI" URL="../Promise/Future/Then.vi"/>
+			<Item Name="Then.vi" Type="VI" URL="../Promise/State/Then.vi"/>
+			<Item Name="VI Name Wrapper.vi" Type="VI" URL="../Promise/Future/VI Name Wrapper.vi"/>
+			<Item Name="Destroy.vi" Type="VI" URL="../Promise/Future/Destroy.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
